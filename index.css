@@ -1,0 +1,49 @@
+body{
+  margin: 10%;
+  padding: 0;
+  width: 80%;
+  background-color: aliceblue;
+}
+.img{
+  float:left;
+  width: 50%;
+}
+.li{
+  float: right;
+  width: 30%;
+  position: relative;
+  right: 100px;
+  line-height: 30px;
+  color: maroon;
+  margin-top: 40px;
+}
+ul>li{
+  text-decoration: none;
+}
+h1, h2{
+  color: red;
+  text-align: center;
+}
+#h2{
+  margin-bottom :-20px;
+  color: red;
+}
+.li>p{
+  color: black;
+  margin-bottom: 5px;
+}
+@media  screen and (max-width:480px) {
+  .li{
+    line-height: 10px;
+    color: black;
+    
+  }
+}
+
+
+
+
+
+
+
+
